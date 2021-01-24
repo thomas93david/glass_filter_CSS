@@ -6,7 +6,7 @@
 h1 {
   color: #426696;
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 1rem;
   opacity: 0.8;
 }
 h2,
@@ -31,7 +31,7 @@ main {
 .glass {
   background: white;
   min-height: 80vh;
-  width: 60%;
+  width: 70%;
   background: linear-gradient(
     to right bottom,
     rgba(255, 255, 255, 0.7),
@@ -57,14 +57,14 @@ main {
 }
 .circle1 {
   top: 5%;
-  right: 15%;
+  right: 5%;
 }
 .circle2 {
   bottom: 5%;
-  left: 10%;
+  left: 5%;
 }
 .dashboard {
-  flex: 1;
+  flex: 3;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -79,21 +79,21 @@ main {
 }
 .link {
   display: flex;
-  margin: 2rem 0rem;
+  margin: 20px 20px 20px 20px;
   padding: 1rem 1rem;
   align-items: center;
 }
 .link h2 {
-  /* padding: 0rem 1rem; */
+  padding: 0rem 1rem;
 }
 .games {
-  flex: 2;
+  flex: 6;
 }
 .pro {
   background: linear-gradient(to right top, #65dfc9, #6cdbeb);
   border-radius: 2rem;
   color: white;
-  padding: 1rem;
+  padding: 10px;
   position: relative;
 }
 .pro img {
